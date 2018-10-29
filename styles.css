@@ -1,0 +1,273 @@
+/*
+http://www.thisandthatcreative.com/2010/10/make-slideshow-header.html
+http://www.menucool.com/javascript-image-slider
+
+#27301C - Dark Green
+#6387F2 - Light Blue
+#1E2640 - Dark Blue
+#A1A67B - Light Green
+#BFAE99 - Tan
+
+#335522 - Darkest Green
+#66BB44 - Medium Green
+#AAEE66 - Light Green
+#99BB77 - Green/Grey
+#DDEEBB - Tan
+------------------------
+#334422 - Darkest Green
+#779966 - Medium Green
+#AACC88 - Light Green
+#99AA88 - Grey
+#DDDDCC - Light Grey
+------------------------
+*/
+
+/* Container Divs */
+body {
+  background-image:url(Images/Background.jpg);
+  background-position:top center;
+  background-repeat:no-repeat;
+  background-color:#000000;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+
+#main {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:1095px;
+  background-color:#DDDDCC;
+  border:thick solid black;
+  border-radius:2em;
+}
+
+#mainCompany {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:1530px;
+  background-color:#DDDDCC;
+  border:thick solid black;
+  border-radius:2em;
+}
+
+#mainCamps {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:950px;
+  background-color:#DDDDCC;
+  border:thick solid black;
+  border-radius:2em;
+}
+
+#mainAwards {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:870px;
+  background-color:#DDDDCC;
+  border:thick solid black;
+  border-radius:2em;
+}
+
+#mainCredits {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:1870px;
+  background-color:#DDDDCC;
+  border:thick solid black;
+  border-radius:2em;
+}
+
+#mainGroup {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:1290px;
+  background-color:#DDDDCC;
+  border:thick solid black;
+  border-radius:2em;
+}
+
+
+#title {
+  position:absolute;
+  top:0px;
+  left:20px;
+  height:30px;
+  width:200px;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:40pt;
+  font-weight:700;
+}
+
+#nav {
+  position:absolute;
+  top:15px;
+  right:10px;
+  width:650px;
+  height:30px;
+  text-align:right;
+}
+
+#mainImage {
+  background-image:url(Images/GroupCampHorseshoe.jpg);
+  position:absolute;
+  top:60px;
+  left:0px;
+  width:100%;
+  height:320px;
+}
+
+#content {
+  position:absolute;
+  top:380px;
+  left:0px;
+  width:100%;
+  height:370px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#contentCamps {
+  position:absolute;
+  top:380px;
+  left:0px;
+  width:980px;
+  height:370px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#contentCompany {
+  position:absolute;
+  top:380px;
+  left:0px;
+  width:980px;
+  height:370px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#contentAwards {
+  position:absolute;
+  top:380px;
+  left:0px;
+  width:980px;
+  height:370px;
+  padding-left:10px;
+  padding-right:20px;
+}
+
+#contentHome {
+  position:absolute;
+  top:380px;
+  left:0px;
+  width:100%;
+  height:370px;
+  padding-left:10px;
+  padding-right:15px;
+}
+
+#footer {
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  height:90px;
+  border-top:thick solid black;
+}
+
+#footer-c1 {
+  position:absolute;
+  top:33px;
+  left:320px;
+  width:100px;
+  height:100px;
+}
+
+#footer-c2 {
+  position:absolute;
+  top:-10px;
+  left:0px;
+  width:100%;
+  height:100px;
+  text-align:center;
+}
+
+#footer-c3 {
+  position:absolute;
+  top:33px;
+  left:600px;
+  width:100px;
+  height:100px;
+}
+/* End of Container Divs */
+
+
+/* ID's */
+#campPic1 {
+  padding-top:10px;
+}
+
+#campPic2 {
+  padding-top:10px;
+  padding-right:10px;
+}
+
+#companyPic2 {
+  padding-left:9px;
+}
+
+#crestPic {
+  padding-right:15px;
+}
+
+#muralPic {
+  padding-left:35px;
+}
+
+#HomePic {
+  padding-left:8px;
+}
+
+/* End of ID's */
+
+
+/* Classes */
+.nav {
+  text-decoration:none;
+  color:#779966;
+}
+
+.nav:hover {
+  color:#AACC88;
+  text-shadow:1px 1px 3px #334422;
+}
+
+.title {
+  text-decoration:none;
+  color:#334422;
+}
+
+.title:hover {
+  text-decoration:none;
+  text-shadow:2px 2px 5px #334422;
+}
+
+.floatRight {
+  float:right;
+}
+
+.floatLeft {
+  float:left;
+}
+/* End of Classes */
